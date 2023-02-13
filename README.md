@@ -35,7 +35,7 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - JavaScript DOM
-- ![Advice Slip API](https://api.adviceslip.com/#object-slip)
+- [Advice Slip API](https://api.adviceslip.com/#object-slip)
 
 
 ### What I learned
