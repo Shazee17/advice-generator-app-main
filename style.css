@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300;400&family=Manrope:wght@800&display=swap');
+
+.attribution { font-size: 11px; text-align: center; position: fixed; bottom: 0; color: white; }
+.attribution a { color: var(--Neon-Green); }
+
+:root{
+    --Light-Cyan:hsl(193, 38%, 86%);
+    --Neon-Green: hsl(150, 100%, 66%);
+
+    --Grayish-Blue:hsl(217, 19%, 38%);
+    --Dark-Grayish-Blue:hsl(217, 19%, 24%);
+    --Dark-Blue:hsl(218, 23%, 16%);
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Manrope', Arial, Helvetica, sans-serif;
+    background-color: var(--Dark-Blue);
+    min-height: 100vh;
+}
+
+body, .advice-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.advice-container{
+    padding-bottom: 30px;
+    border-radius: 10px;
+    width: 520px;
+    height: 250px;
+    background-color: var(--Dark-Grayish-Blue);
+}
+
+.advice-text{
+    padding-top: 26px;
+    padding-bottom: 29px;
+    width: 380px;
+    font-size: 20px;
+    color: var(--Light-Cyan);
+    cursor: pointer;
+}
+
+.advice-text:hover{
+    color: white;
+}
+
+.advice-id{
+    padding-top: 20px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: var(--Neon-Green);
+    font-size: 13px;
+}
+
+.advice-container img{
+    height: 15px;
+}
+
+.button-container{
+    margin: -17px;
+}
+
+.dice-button{
+    width: 45px;
+    height: 45px;
+    padding-top: 4px;
+    border: none;
+    border-radius: 30px;
+    background-color: var(--Neon-Green);
+    cursor: pointer;
+}
+
+.dice-button img{
+    height: 18px;
+}
+
+.dice-button:active{
+    background-color: var(--Light-Cyan);
+}
+
+@media only screen and (max-width: 360px){
+
+    body{
+        padding-left: 25px;
+    }
+
+    .advice-container{
+        width: 370px;
+        height: 300px;
+
+    }
+
+    .advice-container img{
+        height: 12px;
+    }
+
+    .advice-text{
+       width: 350px;
+    }
+    
+    .dice-button{
+        height: 60px;
+        width: 60px;
+    }
+
+    .dice-button img{
+        height: 25px;
+    }
+}
+
+
+
+
+
+
+
+
